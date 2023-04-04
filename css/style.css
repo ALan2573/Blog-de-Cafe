@@ -173,7 +173,13 @@ img{
     cursor: pointer;
 }
 
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
 .boton--primario {
+   
     background-color: var(--negro);
     
 }
@@ -223,7 +229,20 @@ img{
 
 
 /* contacto */
-
+.error {
+    background-color: rgb(185, 0, 0);
+    padding: 1rem;
+    text-align: center;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+.enviado {
+    background-color: rgb(4, 73, 73);
+    padding: 1rem;
+    text-align: center;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
 .contacto-bg{
     height: 40rem;
     background-size: cover;
@@ -250,6 +269,7 @@ img{
 }
 .campo__field{
   flex: 1;
+  height: 5rem;
   border: 1px solid var(--gris);
   border-radius: 1rem;
 }
